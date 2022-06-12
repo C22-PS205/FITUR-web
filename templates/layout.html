@@ -9,20 +9,20 @@
 
     <body>
         <div class="navbar">
-            <a href="{{ url_for('home') }}" class="navbar-brand">Home</a>
+            <a href="{{ url_for('index_page') }}" class="navbar-brand">Home</a>
             <a href="{{ url_for('about') }}" class="navbar-item">About</a>
-            <a href="{{ url_for('penyu') }}" class="navbar-item">Penyu</a>
+            <a href="{{ url_for('turtle') }}" class="navbar-item">Turtle</a>
         </div>
 
         <div class="body-content">
             {% block content %}
             {% endblock %}
             <hr/>
-            <footer class="py-2 border-top">
-                <p class="mb-0 text-center">
-                    © Tengku Surya A | 2022 | All Rights Reserved
-                </p>
-              </footer>
-        </div>
+             </div>
     </body>
+    <footer class="py-2 border-top">
+        <p class="mb-0 text-center">
+            © Tengku Surya A | 2022 | All Rights Reserved
+        </p>
+      </footer>
 </html>

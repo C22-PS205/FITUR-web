@@ -2,38 +2,38 @@
 [
     {
       "id": "1",
-      "nama": "Penyu Belimbing",
+      "nama": "Leatherback Turtle",
       "nama_latin": "Dermochelis coriacea",
-      "deskripsi": "Penyu belimbing memiliki tempurung berwarna gelap dengan bintik putih. Panjangnya bisa mencapai 180 sentimeter dengan berat mencapai 500 kilogram. Penyu belimbing banyak ditemukan di perairan tropis hingga lautan sub kutub. Ketika penyu belimbing bertelur, mereka akan pergi ke pantai daerah tropis. D. coriacea menghabiskan sebagian besar hidupnya di laut lepas dan hanya naik ke daratan saat akan bertelur dan mereka bisa mengeluarkan telur 60 sampai 129 telur dalam dua sampai tiga tahun."
+      "deskripsi": "Leatherback turtles have a dark shell with white spots. It can reach 180 centimeters in length and weigh up to 500 kilograms. Leatherback turtles are found in tropical waters to sub-polar oceans. When leatherback turtles lay their eggs, they will go to the beaches of the tropics. D. coriacea spend most of their lives on the high seas and only come to land when they are about to lay eggs and they can lay 60 to 129 eggs in two to three years."
     },
     {
       "id": "2",
-      "nama": "Penyu Hijau",
+      "nama": "Green sea turtle",
       "nama_latin": "Chelonia mydas",
-      "deskripsi": "Penyu hijau (C. mydas) merupakan penyu yang paling sering terlihat di laut tropis. Ciri paling menonjol dari penyu hijau adalah memiliki kepala kecil dan paruh tumpul. Spesies ini memiliki tubuh berwarna abu-abu, hitam, atau kecokelatan. Lalu kenapa dinamai penyu hijau? Nama penyu hijau sendiri berasal dari warna lemak di bawah sisik yang berwarna hijau. Berbeda dengan penyu belimbing yang bisa bertelur empat sampai lima kali per musim, penyu hijau hanya bertelur sekali dalam tiga sampai empat tahun."
+      "deskripsi": "The green turtle (C. mydas) is the most common sea turtle seen in tropical seas. The most prominent feature of the green turtle is that it has a small head and a blunt beak. This species has a gray, black, or brown body. Then why is it called the green turtle? The name green turtle itself comes from the color of the fat under the green scales. In contrast to leatherback turtles which can lay four to five eggs per season, green turtles only lay eggs once in three to four years."
     },
     {
       "id": "3",
-      "nama": "Penyu tempayan",
+      "nama": "Loggerhead sea turtle",
       "nama_latin": "Caretta caretta",
-      "deskripsi": "Penyu tempayan dikenal juga sebagai loggerhead turtle. Spesies ini memiliki tempurung berwarna coklat kemerahan, kepala besar, dan paruh bertumpuk. Di kepala bagian depan terdapat lima sisi dengan plastron berwarna coklat muda hingga kuning. Rahangnya yang sangat kuat membuat penyu ini mampu mengkonsumsi kerang-kerangan yang hidup di dasar laut seperti kerang remis, mimi dan invertebrata lain. Rata-rata penyu tempayan bisa tumbuh 70 sampai 210 sentimeter dengan berat 135 sampai 400 kilogram."
+      "deskripsi": "The loggerhead turtle is also known as the loggerhead turtle. This species has a reddish-brown shell, large head, and stacked beak. On the front of the head there are five sides with a light brown to yellow plastron. Very strong jaws make this turtle able to consume shellfish that live on the seabed such as mussels, mimi and other invertebrates. The average loggerhead turtle can grow to 70 to 210 centimeters and weigh 135 to 400 kilograms."
     },
     {
       "id": "4",
-      "nama": "Penyu pipih",
+      "nama": "Flatback sea turtle",
       "nama_latin": "Natator depressa",
-      "deskripsi": "Disebut penyu pipih karena spesies ini memiliki sisik yang rata dan sedikit melengkung di sisi luar. Penyu ini merupakan penyu dengan genus Natator dan merupakan omnivora. Makanan penyu pipih antara lain timun laut, ubur-ubur, kerang-kerangan, udang, dan invertebrata lainnya."
+      "deskripsi": "Called Flatback sea turtle because this species has scales that are flat and slightly curved on the outside. This turtle is a turtle of the genus Natator and is an omnivore. Flat turtle foods include sea cucumbers, jellyfish, shellfish, shrimp, and other invertebrates."
     },
     {
       "id": "5",
-      "nama": "Penyu sisik",
+      "nama": "Hawksbill sea turtle",
       "nama_latin": "Eretmochelys imbricate",
-      "deskripsi": "Penyu sisik disebut juga hawksbill turtle karena memiliki paruh tajam dan rucing dengan rahang besar. Dengan anatomi mulut seperti itu memudahkan penyu sisik menjangkau makanan yang berada di celah-celah karang seperti sponge dan anemon. Mereka juga biasa  memakan udang dan cumi-cumi. Nama penyu sisik sendiri merujuk pada sisiknya yang tumpang tindih mirip sisik ikan. Ciri khas penyu sisik adalah memiliki tempurung dengan campuran warna kuning, hitam dan coklat bersih. Sedangkan plastron (organ di bagian bawah penyu) berwarna kekuning-kuningan."
+      "deskripsi": "Hawksbill turtles are also called hawksbill turtles because they have sharp and pointed beaks with large jaws. With such an anatomy of the mouth, it is easier for the hawksbill to reach the food in the crevices of the coral such as sponges and anemones. They also usually eat shrimp and squid. The name hawksbill turtle itself refers to its overlapping scales like fish scales. The hallmark of the hawksbill turtle is that it has a shell with a mixture of yellow, black and clean brown colors. While the plastron (organ at the bottom of the turtle) is yellowish."
     },
     {
       "id": "6",
-      "nama": "Penyu lekang",
+      "nama": "Olive ridley sea turtle",
       "nama_latin": "Lepidochelys olivacea",
-      "deskripsi": "Penyu lekang kerap dikira sebagai penyu hijau karena memiliki ciri tubuh yang mirip. Perbedaannya, penyu dengan nama lain olive ridley turtle ini memiliki kepala yang lebih besar dan bentuk tempuruhnya lebih langsing serta bersudut. Tubuhnya berwarna hijau pudar dan mempunyai kurang lebih lima sisik lateral. Spesies ini merupakan penyu terkecil di antara semua jenis yang ada saat ini dan memiliki kebiasan memakan kepiting, kerang, udang dan kerang remis."
+      "deskripsi": "The sea turtle is often mistaken for a green turtle because it has similar body characteristics. The difference is that this turtle, with another name olive ridley turtle, has a larger head and a more slender and angular shell shape. The body is pale green in color and has approximately five lateral scales. This species is the smallest turtle among all species that exist today and has a habit of eating crabs, clams, shrimp and mussels."
     }
   ]

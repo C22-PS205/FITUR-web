@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title %}
+Fitur
+{% endblock %}
+{% block content %}
+<div class="hero-image">
+    <div class="hero-text">
+        <h1 style="font-size:50px">Sea Turtles Recognition</h1>
+        <h3>Upload a picture of a sea turltes and find what type it is! </h3>
+        <form method='post' enctype=multipart/form-data action="/result">
+            <input
+            autofocus
+            type="file"
+            id="image"
+            name="file"
+            class="form-control"
+            accept="image/*"
+            capture
+            required
+            autofocus
+        />
+        <input type="submit" value="upload">
+{% endblock %}

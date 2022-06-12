@@ -1,14 +1,15 @@
 {% extends "layout.html" %}
 {% block title %}
-Jenis-Jenis Penyu di Indonesia
+Types of Turtles in Indonesia
 {% endblock %}
 {% block content %}
-<p>Jenis-Jenis Penyu di Indonesia</p>
+<div class="background">
+<p>Types of Turtles in Indonesia</p>
 <ul>
     {% for i in penyu %}
     <li>{{i.nama}}</li>
-    <li>{{i.nama_latin}}</li>
-    <li>{{i.deskripsi}}</li>
+    <p> {{i.nama_latin}}</p>  
+    <p>{{i.deskripsi}}</p>
     {% endfor %}
 </ul>
 {% endblock %}

@@ -1,52 +1,40 @@
-from flask import render_template
-from flask import Flask
+from flask import Flask, request, render_template
 from datetime import datetime
-import re
-import os,json
+import json
+from model import get_category, plot_category
 
 app = Flask(__name__)
 
-@app.route("/")
-def home():
-    return render_template("home.html")
 
-# New functions
+@app.route("/")
+def index_page():
+    return render_template("index.html")
+
+@app.route('/result', methods=['POST'])
+def fitur():
+    if request.method == 'POST':
+        img = request.files['file']
+        image_category = get_category(img)
+        now = datetime.now()
+        current_time = now.strftime("%H-%M-%S")
+        plot_category(img, current_time)
+        return render_template('result.html', category=image_category, current_time=current_time)
+
+
+
 @app.route("/about/")
 def about():
-    # with open('static\data.json') as file:
-    #     data = json.load(file)
-    # random_text = data["penyu"][1]["nama"]
-    return render_template(
-        "about.html",
-        # random_text = random_text
-    )
+    return render_template("about.html",)
 
-
-@app.route("/penyu/tes")
-def penyu():
+@app.route("/turtle")
+def turtle():
     data = []
     with open('static\data.json') as file:
         data = json.load(file)
         print(data)
-        # for i in data:
-        #     nama = i["nama"]
-        #     nama_latin = i["nama_latin"]
-        #     deskripsi = i["deskripsi"]
         return render_template(    
             "penyu.html",
             penyu = data
-            # nama = nama ,
-            # nama_latin = nama_latin,
-            # deskripsi = deskripsi,
-    )
-
-@app.route("/hello/")
-@app.route("/hello/<name>")
-def hello_there(name = None):
-    return render_template(
-        "hello.html",
-        name=name,
-        date=datetime.now()
     )
 
 
